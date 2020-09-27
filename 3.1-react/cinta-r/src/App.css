@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 55vmin;
+  pointer-events: none;
+}
+
+.container-search {
+  margin: 5%;
+  width: 100%;
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+.button-google {
+  width: 145px;
+  height: 25px;
+}
+
+.span-text {
+  color: #61dafb;
+}
